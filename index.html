@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Personal Portfolio</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.8/css/all.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+<header class="navbar navbar-expand-lg navbar-default navbar-dark bg-dark fixed-top">
+  <div class="container justify-content-between" id="header-container">
+    <a class="navbar-brand text-light text-uppercase"><h1>Benjamin</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav id="mainNavbar" class="collapse navbar-collapse justify-content-end">
+      <ul class="nav navbar-nav text-uppercase" >
+        <li class="nav-item active">
+          <a class="nav-link pl-1" href="#" data-target="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-1" href="#" data-target="portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-1" href="#" data-target="contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="bg-secondary">
+  <div class="row justify-content-center main-container">
+    <div class="col-8 bg-silver self-introduction" id="about">
+      <div class="row align-items-center justify-content-center content-container text-white">
+        <div class="col-8 resume-container text-right">
+          <p class="resume">Front-End Developer, with practical experience in project management; devoted to functional programming.</p>
+          <hr class="divider bg-white mr-0">
+          <p class="skills">Web Developer - User Experience Designer</p>
+        </div>
+        <div class="col-4">
+          <img src="https://pbs.twimg.com/profile_images/669056645486383104/8QUd07rU_400x400.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="col-8 portfolio bg-light" id="portfolio">
+      <h2 class="text-center text-uppercase mt-5 mb-4">Portfolio</h2>
+      <hr class="divider bg-secondary mb-4">
+      <div class="row justify-content-center">
+        <div class="col-5 mb-5"><img class="img-fluid" src="https://s17.postimg.org/f0kfcg5gv/form-validation-demo.jpg">
+    </div>
+        <div class="col-5 mb-5"><img class="img-fluid" src="https://s17.postimg.org/gfm016e9r/keyboard-visualization.jpg"></div>
+        <div class="col-5 mb-5"><img class="img-fluid" src="https://s17.postimg.org/f0kfcg5gv/form-validation-demo.jpg"></div>
+        <div class="col-5 mb-5"><img class="img-fluid" src="https://s17.postimg.org/gfm016e9r/keyboard-visualization.jpg"></div>
+      </div>
+    </div>
+    <div class="col-8 contract bg-light" id="contact">
+      <h2 class="text-center text-uppercase mt-5 mb-4">Contact me</h2>
+      <hr class="divider bg-secondary mb-4">
+      <div class="row justify-content-around position-relative">
+        <div class="col-5">
+          <form>
+            <ul class="form-list mt-5 no-list-style">
+              <li class="pb-2 mb-3 border-bottom">
+                <label class="position-relative">Name</label>
+                <input placeholder="Name" class="p-2 bg-light" id="inputName">
+              </li>
+              <li class="pb-2 mb-3 border-bottom">
+                <label class="position-relative">E-mail</label>
+                <input placeholder="E-mail" class="p-2 bg-light">
+              </li>
+              <li class="pb-2 mb-3 border-bottom">
+                <label class="position-relative">Phone-number</label>
+                <input placeholder="Phone-number" class="p-2 bg-light">
+              </li>
+              <li class="pb-2 mb-3 border-bottom">
+                <label class="position-relative">Message</label>
+                <textarea placeholder="Message" class="p-2 bg-light"></textarea>
+              </li>
+              <div class="mb-4 mt-4"><button class="btn btn-primary">Send</button></div>
+            </ul>
+          </form>
+        </div>
+        <div class="col-5 my-message">
+          <p class="mt-5">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, random questions about the universe and the meaning of life,  feel free to drop me a line anytime.</p>
+          <p>I promise to reply A.S.A.P.</p>
+          <p class="mb-0 kidding">Just kidding, it won't reach :)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="row justify-content-center about-container bg-silver text-white pt-5 pb-5">
+    <div class="about col-4 text-center">
+      <h2 class="mt-5 mb-3">About this page</h2>
+      <p class="mb-5">This is a learning project, please help me get better if you feel so :)</p>
+    </div>
+    <div class="social-media col-4 text-center">
+      <h2 class="mt-5 mb-3">Find me here</h2>
+      <ul class="no-list-style horizantal-list">
+        <li>
+          <a href="https://twitter.com/BenjaminLiuCn" target="_blank"><i class="fab fa-fw fa-twitter fa-3x"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/charmk3" target="_blank"><i class="fab fa-fw fa-github fa-3x"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright bg-dark text-white justify-content-center row align-item-center">
+    <p class="mt-4">Benjamin © 2018 All Right Reserved.</p>
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
